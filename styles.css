@@ -1,0 +1,96 @@
+.nome {
+    color: #9b05af
+}
+
+body {
+    display: flex;
+    background-color: rgb(40, 38, 38);
+    color: aliceblue;
+    flex-direction: column;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+img {
+    height: 70vh;
+    width: auto;
+    border-radius: 20px;
+  }
+
+.imagem {
+    display: flex;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border-top: -20px;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: #9b05af;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+
+
+}
+
+.sub_titulo{
+    display: flex;
+    justify-content: center;
+
+}
+
+@media (max-width:900px) {
+    body {
+        display: flex;
+        width: 90vw;
+       height: 80vw; 
+    }
+
+    img{
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .text{
+        display: flex;
+
+    }
+
+    form {
+    width: 80%;
+    }
+
+}
+.comprar{
+    height: 50px;
+    width: 30%;
+    background-color: #9b05af;
+    border-right: 20px;
+}
+
+.compra{
+display:flex ;
+justify-content: flex-end;
+}
